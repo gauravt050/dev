@@ -76,3 +76,7 @@ resource "azurerm_resource_group" "rgsts00" {
     name = "test-rg001"
     location = "southindia"
 }
+resource "azurerm_resource_group" "rgsts09" {
+    name = "test-rg9"
+    location = "southindia"
+}
